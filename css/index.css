@@ -1,0 +1,99 @@
+.section {
+	text-align: center;
+}
+
+code {
+	background: none;
+	border: none;
+}
+
+.header {
+	margin: 5rem 0 2rem 0;
+	border-bottom: 1px #eeeeee solid;
+}
+
+.hero {
+	padding: 6rem 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero h1 {
+	color: #444444;
+	font-weight: 600;
+}
+
+.github { color: #6d3678; }
+.twitter { color: #00aced; }
+
+a:hover.github { color: #191919; }
+a:hover.twitter { color: #009AD4; }
+
+a.social-link {
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover.social-link {
+	text-decoration: underline;
+}
+
+.app-icon {
+	margin: 1rem;
+}
+
+a.site-title {
+	color: #444444;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.post-title {
+	margin: 0;
+}
+
+.post-title a {
+	color: #444444;
+	text-decoration: none;
+}
+
+.post-date, .post-meta {
+	color: #aaaaaa;
+	margin: 0 0 1rem 0;
+}
+
+.post-summary {
+	color: #666666;
+}
+
+.pagination-item,
+a.pagination-item {
+	color: #666666;
+}
+
+.pagination-item.disabled {
+	color: #c6c6c6;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.hero {
+		padding: 12rem 0 0 0;
+	}
+
+	.hero h1 {
+		font-size: 6.0rem;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
